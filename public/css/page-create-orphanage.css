@@ -1,0 +1,32 @@
+#page-create-orphanage {
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.map-container {
+    margin: 0 0 4rem;
+}
+
+.map-containet .leaflet-container {
+    border-radius: 20px 20px 0 0;
+}
+
+.map-container footer {
+    background-color: #f5f8fa;
+    border-radius: 0 0 20px 20px;
+    
+    color: #0089A5;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+/* identical to box height, or 179% */
+
+    text-align: center;
+}
+
